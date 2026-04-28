@@ -1,0 +1,27 @@
+# Python virtualenv
+.venv/
+venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# HuggingFace cache
+.hf_cache/
+
+# Artifacts and experiments (keep only artifacts_final/)
+artifacts_fast/
+artifacts_fast_v2/
+artifacts_scratch/
+artifacts_offline/
+
+# Large notebooks / historical
+projet-image-maladies-plantes (1).ipynb

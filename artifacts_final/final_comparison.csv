@@ -1,0 +1,3 @@
+famille,modele,accuracy_test,macro_f1_test,weighted_f1_test
+Deep Learning,mobilenet_v3_transfer,0.956959706959707,0.9539724539948538,0.9563038173947441
+ML classique,RandomForest,0.9029304029304029,0.8961951452828867,0.9012090814861111
