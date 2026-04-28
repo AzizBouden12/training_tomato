@@ -1,64 +1,38 @@
-# Python environments
+﻿# Virtual environments
 .venv/
 venv/
-.env
+.env/
 
-# Bytecode and caches
+# Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*$py.class
+*.py[cod]
 .ipynb_checkpoints/
+
+# Jupyter and tool cache
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .cache/
 
-# Data and datasets
-_data/
-data/
-datasets/
+# Local ML data and artifacts
 prepared_tomato_data/
-*.csv
-*.xlsx
-*.xls
-
-# Model artifacts and training outputs
-*.h5
-*.hdf5
-*.pth
-*.pt
-*.ckpt
-*.onnx
-*.pb
-*.joblib
-*.pkl
-*.pickle
-*.npz
-artifacts_final/
-artifacts_fast/
-artifacts_fast_v2/
-artifacts_scratch/
-artifacts_offline/
+artifacts*/
 checkpoints/
-logs/
+runs/
 wandb/
 mlruns/
-runs/
+.hf_cache/
 
-# Logs and reports
+# Model binaries
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs
 *.log
-*.out
-*.err
 
-# Notebook / editor / OS noise
+# Editor / OS
 .vscode/
 .idea/
 .DS_Store
-
-# HuggingFace cache
-.hf_cache/
-
-# Large or historical notebooks
-projet-image-maladies-plantes (1).ipynb
